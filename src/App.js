@@ -14,7 +14,7 @@ import Calc from './calculater/Calc'
 // import ToDo from "./component/ToDo";
 // import Contact from "./component/Contact";
 //import Todo from "./ToDo/todo"
-import Parent from "./component/Parent"
+// import Parent from "./component/Parent"
  import './ToDo/todo.css'
 
 // import { v4 as uuidv4 } from "uuid";

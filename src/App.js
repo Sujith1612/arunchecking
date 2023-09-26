@@ -10,7 +10,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // import Help from "./projectt/Funccomponent/router/Help";
 // import User from "./projectt/Funccomponent/router/User";
 import "./App.css";
-// import Calc from './calculater/Calc'
+import Calc from './calculater/Calc'
 // import ToDo from "./component/ToDo";
 // import Contact from "./component/Contact";
 //import Todo from "./ToDo/todo"
@@ -22,8 +22,8 @@ function App  () {
  
 return(
 <div className="App">
-  <Parent />
-  
+  {/* <Parent /> */}
+  <Calc/>
 </div>
 )
 }

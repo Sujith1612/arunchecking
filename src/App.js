@@ -14,16 +14,17 @@ import "./App.css";
 // import ToDo from "./component/ToDo";
 // import Contact from "./component/Contact";
 //import Todo from "./ToDo/todo"
-// import Parent from "./component/Parent"
- import './ToDo/todo.css'
- import './calculater/add'
+ import Parent from "./component/Parent";
+
+//  import './ToDo/todo.css'
+//  import './calculater/add'
 
 // import { v4 as uuidv4 } from "uuid";
 function App  () {
  
 return(
 <div className="App">
-  <Form/>
+ <Parent/>
 
 </div>
 )

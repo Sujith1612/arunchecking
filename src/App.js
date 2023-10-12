@@ -1,6 +1,7 @@
 import React from "react";
 // import Form from "./pages/form";
 import "bootstrap/dist/css/bootstrap.min.css";
+
 //  import AccordParent from "./projectt/AccordParent";
 //  import './projectt/accord/AccordChild.css'
 // import College from "./pages/college";
@@ -16,7 +17,6 @@ import "./App.css";
 //import Todo from "./ToDo/todo"
 import Parent from "./component/Parent";
 
-
 //  import './ToDo/todo.css'
 //  import './calculater/add'
 
@@ -24,8 +24,9 @@ import Parent from "./component/Parent";
 function App() {
   return (
     <div className="App">
- <Parent/>
- 
+      
+     <Parent/>
+      
     </div>
   );
 }

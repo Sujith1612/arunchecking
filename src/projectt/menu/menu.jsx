@@ -16,11 +16,11 @@ export default function Menu() {
   uniqueCourses.unshift("All");
 
   const handletap = (coursename) => {
-     if(coursename==="All"){
-         setDtatarender(data)
-    }else{
-    const filldata = data.filter((data) => data.course === coursename);
-    setDtatarender(filldata);
+    if (coursename === "All") {
+      setDtatarender(data);
+    } else {
+      const filldata = data.filter((data) => data.course === coursename);
+      setDtatarender(filldata);
     }
   };
 
